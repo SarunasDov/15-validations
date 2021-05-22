@@ -1,38 +1,39 @@
 class Validation {
     isValidFirstName() {
-        if () {
-            
-        }
         return true;
     }
-  
+
     isValidLastName() {
         return true;
     }
-  
+
     isValidEmail() {
         return true;
     }
-  
-    isValidMessage() {
+
+    isValidMessage(message) {
+        if (typeof message !== 'string' || message === '') {
+            return false;
+        }
         return true;
     }
-  
+
+
     isValidPhoneNumber() {
         return true;
     }
-  
+
     isValidMonthName() {
         return true;
     }
-  
+
     isValidWeekdayName() {
         return true;
     }
-  
+
     isValidPersonID() {
         return true;
     }
-  }
-  
-  module.exports = Validation;
+}
+
+module.exports = Validation;
