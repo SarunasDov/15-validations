@@ -1,10 +1,9 @@
 function sum(a, b) {
     if (typeof a !== 'number' ||
-        typeof b !== 'number') {
+        typeof b !== 'number' ||
+        isNaN(a) ||
+        isNaN(b)) {
         return false;
-    }
-    if (a > b) {
-        return b + a;
     }
     return b + a;
 }

@@ -9,9 +9,7 @@ _28 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://sarunasdov.github.io/12-coming-soon/
-
-Design: [https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png]
+Design:
 
 ## Project features
 
